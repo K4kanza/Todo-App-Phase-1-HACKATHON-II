@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(if [ -d \"specs\" ])",
+      "Bash(then ls -d specs/[0-9]*-todo-spec-system)",
+      "Bash(else echo \"No specs directory\")",
+      "Bash(fi)",
+      "Skill(sp.specify)",
+      "Bash(powershell:*)",
+      "Bash(if [ -d \"specs/001-todo-spec-system/checklists\" ])",
+      "Bash(then find specs/001-todo-spec-system/checklists -name \"*.md\")",
+      "Bash(else echo \"No checklists directory\")",
+      "Bash(git rev-parse:*)",
+      "Bash(python -m src.interface.cli:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(pytest:*)",
+      "Bash(set PYTHONPATH=%PYTHONPATH%)",
+      "Bash(%CD%)",
+      "Bash($env:PYTHONPATH = \"D:\\\\Todo-App-Phase-1-HACKATHON-II\")",
+      "Bash(git add:*)",
+      "Bash(git remote add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)"
+    ]
+  }
+}

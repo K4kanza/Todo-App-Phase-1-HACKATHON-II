@@ -1,0 +1,5 @@
+# Core dependencies
+pytest>=7.4.0
+
+# Type checking (optional but recommended)
+mypy>=1.7.0
